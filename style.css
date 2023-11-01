@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  background-color: #003559;
   /* background-color: #60b347; */
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 .number {
   background: #eee;
-  color: #333;
+  color: #003559;
   font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
@@ -67,6 +67,7 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+  border-radius: 1rem;
 }
 
 .between {
@@ -93,16 +94,18 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
+  border-radius: 1rem;
 }
 
 .btn {
   border: none;
   background-color: #eee;
-  color: #222;
+  color: #003559;
   font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 .btn:hover {
